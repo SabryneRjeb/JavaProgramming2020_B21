@@ -1,0 +1,22 @@
+package day39_StaticBlock;
+
+public class Test {
+
+    public static void main(String[] args) {
+
+
+        System.out.println(StaticBlocks.company );
+        System.out.println(StaticBlocks.employee1);
+        System.out.println(StaticBlocks.b);
+        System.out.println(StaticBlocks.isEmployeed);
+
+        StaticBlocks.company = "Bank Of America";
+
+        System.out.println(StaticBlocks.company );
+
+
+
+
+    }
+
+}
